@@ -1,0 +1,110 @@
+/* _content/KOKOTDVA/Areas/Identity/Pages/Account/Register.cshtml.rz.scp.css */
+/* _content/KOKOTDVA/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml.rz.scp.css */
+body[b-73ix80d13l] {
+}
+#confirm[b-73ix80d13l]{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column
+}
+a[b-73ix80d13l] {
+    all: unset;
+    width: 150px;
+    text-align: center;
+    color: var(--light-accent)!important;
+    /*border: 2px var(--dark-accent) solid;*/
+    background-color: var(--dark-accent);
+    padding: 0.75em;
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    cursor: pointer;
+    transition: transform 300ms ease;
+    font-size: 1.5em;
+}
+
+    a:hover[b-73ix80d13l]{
+        transform: scale(1.05);
+    }
+/* _content/KOKOTDVA/Pages/GalleryPhotos.cshtml.rz.scp.css */
+div.card-container[b-2j805l63nu] {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(355px, max-content));
+    gap: 1em;
+    width: calc(100% - 5em);
+    margin: 0 2.5em;
+    justify-items: center;
+    grid-auto-flow: dense;
+    justify-content: center;
+}
+/* _content/KOKOTDVA/Pages/Index.cshtml.rz.scp.css */
+#heading[b-gdfru9xwud] {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/* _content/KOKOTDVA/Pages/Shared/_Layout-Form.cshtml.rz.scp.css */
+/* _content/KOKOTDVA/Pages/Shared/_Layout-Index.cshtml.rz.scp.css */
+#logo[b-00we445ic9] {
+    font-weight: 800;
+    color: #373737;
+    margin-left: 2em;
+}
+#links[b-00we445ic9]{
+    justify-content: left;
+    width: 500px;
+}
+/* _content/KOKOTDVA/Pages/Shared/_Layout.cshtml.rz.scp.css */
+#logo[b-zpbqod3oqb] {
+    font-weight: 800;
+    color: #373737;
+    margin-left: 2em;
+}
+#links[b-zpbqod3oqb]{
+    width: 100%;
+}
+nav[b-zpbqod3oqb]{
+    width: 100%;
+}
+/* _content/KOKOTDVA/Pages/UserGalleries.cshtml.rz.scp.css */
+.full[b-ehivthksrr] {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.default[b-ehivthksrr] {
+    grid-row: 1 / 3;
+    grid-column: 1;
+    background-color: var(--dark-accent);
+}
+
+.add[b-ehivthksrr] {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.gallery-grid[b-ehivthksrr] {
+    position: relative;
+    top: 205px;
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    grid-template-rows: repeat(5, 150px);
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    font-size: 1.5em;
+    transition-duration: 700ms;
+}
+.item[b-ehivthksrr] {
+    border: 3px black solid;
+    border-radius: 15px;
+    transition: transform 300ms ease;
+}
+
+    .item:hover[b-ehivthksrr] {
+        transform: scale(1.05);
+    }
